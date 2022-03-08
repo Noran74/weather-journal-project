@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url('/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+
+}
+.holder.headline{
+    padding: 30px;
+    width:100%;
+    height:2rem;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-align:center;
+    border: 3px rgb(250, 246, 246) solid;
+    margin:10px;
+    padding-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(16, 79, 160) ;
+    color:antiquewhite;
+    opacity:0.8;
+
+    
+}
+header{
+    padding: 0px;
+    width:100%;
+    height:max-content
+    
+}
+#app{
+    position: absolute;
+    top:8rem;
+    right:20rem;
+    margin: 10px;
+    
+}
+.zip{
+    font-size:1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style:italic;
+    margin-right:80px;
+   padding: 20px;
+   display: block;
+   
+}
+.zip input{
+    color: rgb(4, 4, 80);
+    font-size: 30px;
+    margin-bottom:50px ;
+    opacity:0.7;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.feel {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic ;
+    position: absolute;
+    right:35px;
+    top:4rem;
+    padding:40px;
+    padding-left:220px;
+    margin-bottom:40px;
+    border-bottom: 25px;
+
+    display: block;
+
+
+}
+label .feel{
+    color:blue
+}
+
+.myInput{
+    color:rgb(6, 6, 104);
+    font-size:1em;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    height:100px;
+    width:400px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 15px;
+    border:solid 2px white;
+}
+.input placeholder{
+    color: rgb(5, 14, 94);
+}
+#generate{
+    margin:15px;
+    margin-left:15px;
+    width:120px;
+    height:40px;
+    font-size:1em;
+    color:white;
+    background:rgb(16, 79, 160) ;
+    border-radius: 20px;
+    border-bottom:15px ;
+    border:1px solid white;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.3);
+    opacity:1;
+}
+.entry{
+height:150px;
+width:400px;
+border: rgb(201, 222, 250) 2px solid;
+color:rgba(9, 10, 78, 0.699);
+font-size: 1.5em;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+top:20rem;
+left:1rem;
+box-sizing: border-box;
+box-shadow:blanchedalmond;
+border-radius: 10px;
+
+background-color:transparent;
+}
+
+#date{
+    color: rgb(15, 15, 15);
+    font-size: 22px;
+    font-weight:500;
+    
+
+}
+#temp{
+    color: rgb(15, 15, 15);
+    font-size: 22px;
+    font-weight: 600;
+}
+#content{
+
+    color:rgb(17, 17, 17);
+    font-size: larger;
+
+}
+
+
